@@ -1,6 +1,7 @@
 const model = require('./model')
 const sendMail = require('./nodemailer')
 
+
 const sendBodyMail = async (req, res) => {
     try {
         const { text } = req.body; // Destructure 'text' directly from req.body
